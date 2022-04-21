@@ -166,11 +166,10 @@ class _billState extends State<bill> {
                                 value: selectedno,
                                 onChanged: <String>(value) {
 
-                                    
-                                        selectedno=value;
-                                        setState(() {
+                                  setState(() {
+                                    selectedno=value;
+                                  });
 
-                                        });
                                 },
                                 items:getitems(),)
                         ),
